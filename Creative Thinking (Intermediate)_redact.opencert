@@ -1,0 +1,94 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "8c0842fe-7172-48e8-ac1b-b0ce350b0b88:string:9100006039860",
+    "name": "5c1119ad-8810-4a7a-8e04-6408da01786b:string:Promote Customer Centric Innovations (SF)",
+    "issuedOn": "d42b4956-0236-4a5b-92ec-927645c2cf3d:string:2025-07-11T01:00:37+08:00",
+    "recipient": {
+      "name": "dc4d7ccf-f6a0-4279-ac95-3c310e713bc8:string:GAN BOON CHAI JANSON",
+      "idType": "7a756f50-858b-4bab-8a12-940ecfe20ce9:string:NRIC",
+      "idTypeCode": "9de9a422-c223-4296-9213-fc18cbdacc87:string:SP",
+      "idTypeDesc": "366d21e4-005d-4602-90cc-857acf669eb6:string:Singapore Pink Identification Card"
+    },
+    "issuers": [
+      {
+        "name": "169661ac-a0ce-490e-8e4d-5baacffee43a:string:SkillsFuture Singapore",
+        "id": "660614fd-12d8-4ac5-96ef-9a0ba4628ec9:string:did:ethr:0x450ef784d77a6b5c3607a930f0927aab8776bc30#controller",
+        "identityProof": {
+          "type": "68f16d09-0389-4c2e-8d04-10f759489753:string:DNS-DID",
+          "key": "4d7795e9-446b-4b84-b101-60786954eb31:string:did:ethr:0x450ef784d77a6b5c3607a930f0927aab8776bc30#controller",
+          "location": "e2e4e6cc-5b60-490f-946f-423ad5b4bda0:string:skillsfuture.gov.sg"
+        },
+        "revocation": {
+          "type": "31167056-83f0-4ba5-a9c4-69cbb58d46e9:string:OCSP_RESPONDER",
+          "location": "274f2717-c062-436c-9d93-ca4c7bf35a07:string:https://ocsp.skillsfuture.gov.sg"
+        }
+      }
+    ],
+    "$template": {
+      "name": "810fa26a-e7e4-48d3-a7b0-ed9e7b001a37:string:SF_SOA_001",
+      "type": "c20d7c37-6cc1-46c7-b7b3-3ad63a0d325a:string:EMBEDDED_RENDERER",
+      "url": "7e6b10db-eec5-4cc9-a509-a1b64f7fa4e8:string:https://render.skillsfuture.gov.sg"
+    },
+    "description": "68c75658-9321-4c4c-b8d7-854b42549614:string:Promote Customer Centric Innovations (SF)",
+    "attainmentDate": "9efcdb21-a565-4f41-9c5b-7b293af9f815:string:2025-07-04T00:00:00+08:00",
+    "qualificationLevel": [
+      {
+        "frameworkName": "1aabd390-05ea-4fde-97fe-73328203f030:string:singapore/ssec-eqa",
+        "frameworkVersion": "748ff066-0b9c-4a30-9411-2a90d6803e31:string:2015",
+        "code": "899e01a5-1272-4d47-9955-77d579f1356f:string:N9",
+        "description": "4c164347-04ff-455f-8be8-fda943e76ffa:string:SOA"
+      }
+    ],
+    "transcript": [
+      {
+        "name": "01197801-a24f-4661-8292-2e1f9190028f:string:Creative Thinking (Intermediate)",
+        "grade": "13e6cf4e-2cf1-4b67-8b59-44e9b7b3abe5:string:C",
+        "courseCode": "9f8d6025-b344-4c6e-96c5-6d724c8468c5:string:CCS-CTH-I002-1",
+        "examinationDate": "b42eaf4b-3c0d-4da4-8a21-b1f7f0d09bdc:string:2025-07-04T00:00:00+08:00",
+        "description": "c7ac091c-4674-47b0-a479-b9f18f757ce6:string:Competent"
+      }
+    ],
+    "additionalData": {
+      "dateSentForPrint": "085c0b01-1d74-44fc-917f-39ca01d3dc17:string:2025-07-10",
+      "assessmentOrgName": "7b938444-ea8c-46d5-a03f-269999d6909b:string:NTUC LEARNINGHUB PTE. LTD.",
+      "certCode": "720f4257-1a00-4d56-abbe-b6f5d638e236:string:SF_SOA_001",
+      "serialNum": "85518743-3136-4f6c-aedb-e1ea8de1126b:string:9100006039860"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "83f75ae4b5fde8843110bcea8703a4276e233695e0d4680f1670f4f76d78a28c",
+    "proof": [
+      "71a5d3dac221a995f3bca0dfcd88731582db0ef0f7a0fba704d1756512c5d1dd",
+      "9adec62ac8d04544724b8addf0404dc08b0109c5849fabb1a22cd0f5f21cb1de",
+      "6f871fde6b4a50762b17c131bf30d9d2de3fcddf0fa65d1b85fe5e62901594d0",
+      "acd61304a11ce692b473e03642f6e59765bd166f6e42f44851ab138b2807bd19",
+      "6098f5bdee05b5909b6131aa78dc776b71da1e91980b24d540e4e7f8b7b0bca1",
+      "3d7af6a16f4e834471dbc5fc3758f17dc595c963a00a00685b35ecc8e8e0ee65",
+      "ef5496838d8a3e587c9d8cab9f99433a879cb893c6aa9f0b43ac095993e04cc7",
+      "075da70e84f39c72ec74dabe53cdbc03326f4cbda80883907cc7e8444e5d6a30",
+      "0366d63baa28a9beb1ff380a408027609ad98641b075cdc09d22f4d44a09a612",
+      "707cfb9f6f68a98895a75b9ae8283a7ebcd8369d573a9c1cf7816db956da6eb2",
+      "bc7bee3bea3031d8be110b0644bc65a9e5516dcbb0381bf8e281bd98dee6e0f7",
+      "8570f2c13a9ea6ca311390d388797680b57aebab5d16eea076055d4031d0b002",
+      "cfcdf59fc2e33542bd3f185fad2b2976be6bc551f67c976aeaec76ee32628858"
+    ],
+    "merkleRoot": "22ab0786547e132405498122c73a319f7461f694affb002af66c99736c38388f"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2025-07-10T17:02:44.676Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0x450ef784d77a6b5c3607a930f0927aab8776bc30#controller",
+      "signature": "0x0a8862909b7666f29c79496419aedb3403c6efd056b89c13040b4e28daf588db5eb7071989a11f48ac79538eb1e7f74339354dd70504de9e4dc205baa71dd2461c"
+    }
+  ],
+  "privacy": {
+    "obfuscatedData": [
+      "beb44d1de15dde35718751388d3d0316cc26ed680f32b6a2d7ea21c3c5764762"
+    ]
+  }
+}
